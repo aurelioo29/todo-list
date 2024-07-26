@@ -1,0 +1,7 @@
+POST http://localhost:8000/lists
+Content-Type: application/json
+
+{
+  "content": "ini merupakan tes API",
+  "status": "false"
+}
