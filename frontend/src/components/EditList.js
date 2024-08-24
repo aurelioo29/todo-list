@@ -10,7 +10,7 @@ function EditList() {
 
   useEffect(() => {
     getListById();
-  }, []);
+  });
 
   const updateTodo = async (e) => {
     e.preventDefault();
